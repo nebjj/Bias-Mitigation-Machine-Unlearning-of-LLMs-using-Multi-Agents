@@ -1,8 +1,4 @@
 """
-phase5_eval.py — Phase 5: Comparative Evaluation Across All Phases
-
-What this does:
-───────────────
 Runs the StereoSet intrasentence benchmark across four system configurations:
 
   Baseline  — Raw GPT-2, no intervention
