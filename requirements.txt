@@ -1,0 +1,15 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+torch>=2.1.0                  # gradient ascent/descent, model training
+transformers>=4.38.0          # GPT-2, DistilBERT pipelines + tokenisers
+datasets>=2.18.0              # StereoSet benchmark via HuggingFace Hub
+accelerate>=0.27.0            # required by transformers for device management
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit>=1.32.0             # Streamlit front-end (ui.py)
+
+# ── Data & Visualisation ──────────────────────────────────────────────────────
+pandas>=2.1.0                 # DataFrames, CSV export
+matplotlib>=3.8.0             # all charts in plots.py and ui.py
+
+# ── Utilities (stdlib supplements) ───────────────────────────────────────────
+# re, csv, os, json, difflib, argparse, time, dataclasses — all stdlib, no install needed
